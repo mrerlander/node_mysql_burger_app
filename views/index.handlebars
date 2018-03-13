@@ -1,0 +1,14 @@
+<h1>Burger Time!</h1>
+
+<form action="/burgers/create" method="POST">
+    <input type="text" name="burger_name">
+    <input type="submit" value="Add Burger">
+</form>
+
+<div id="container">
+{{#each burgers}}
+    {{this.burger_name}}
+    <hr>
+    <br>
+{{/each}}
+</div>
