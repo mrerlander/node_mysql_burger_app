@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/mrerlander/node_mysql_burger_app/issues"
   },
-  "homepage": "https://github.com/mrerlander/node_mysql_burger_app#readme"
+  "homepage": "https://github.com/mrerlander/node_mysql_burger_app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
 }
